@@ -8,6 +8,7 @@ export default defineConfig({
   description: "The operating manual for Koor Technologies, Inc., where decisions about how we work are recorded.  This helps us remember our agreements, on-board new team members, and work together.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: 'koor-logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Company', link: '/company/' },
